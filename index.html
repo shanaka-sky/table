@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+</head>
+<body>
+
+<table id="ProfileList" border="true">
+</table>
+
+
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+    $.get("person.xml", function (data) {
+        var xml = data;
+        // var xmlDoc = $.parseXML(xml);
+        //var $xml = $(xml);
+        var $person = $(xml).find("person");
+        $person.each(function () {
+            var name = $(this).find('name').text(), age = $(this).find('age').text();
+            // Insert value (HTML Tags) to the HTML associated with ID (#). Can do any HTML formatting
+            $("#ProfileList").append('<tr>' + '<td>' + name + ' </td><td>' + age + '</td></tr>')
+        });
+    });
+</script>
+</body>
+</html>
