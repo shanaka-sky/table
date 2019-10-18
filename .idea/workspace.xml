@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ac8e47e-21a8-4e83-8544-6f8c22887089" name="Default Changelist" comment="" />
+    <list default="true" id="5ac8e47e-21a8-4e83-8544-6f8c22887089" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/candle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/candle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SGUDPUw0YX0gsC3Nn7xRw4wDKG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,11 +60,53 @@
       <option name="presentableId" value="Default" />
       <updated>1571189305911</updated>
       <workItem from="1571189307002" duration="4892000" />
-      <workItem from="1571216437627" duration="3384000" />
+      <workItem from="1571216437627" duration="3674000" />
+      <workItem from="1571300165062" duration="1000" />
+      <workItem from="1571387460863" duration="3000" />
+      <workItem from="1571387770906" duration="802000" />
+      <workItem from="1571388628894" duration="81000" />
+      <workItem from="1571389561477" duration="155000" />
+      <workItem from="1571389718866" duration="88000" />
+      <workItem from="1571389843292" duration="257000" />
+      <workItem from="1571390136489" duration="135000" />
+      <workItem from="1571390284319" duration="107000" />
+      <workItem from="1571390404273" duration="402000" />
+      <workItem from="1571390808778" duration="3227000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1571393467869</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571393467869</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="553" y="183" key="SettingsEditor" timestamp="1571388681230">
+      <screen x="0" y="23" width="1680" height="997" />
+    </state>
+    <state x="553" y="183" key="SettingsEditor/0.23.1680.997@0.23.1680.997" timestamp="1571388681230" />
   </component>
 </project>

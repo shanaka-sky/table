@@ -6,21 +6,23 @@
 </head>
 <body>
 
-<table id="ProfileList" border="true">
-</table>
+<div id="image">
 
+</div>
 
 <script src="jquery-3.4.1.min.js"></script>
 <script>
-    $.get("person.xml", function (data) {
+    $.get("candle.xml", function (data) {
         var xml = data;
         // var xmlDoc = $.parseXML(xml);
         //var $xml = $(xml);
-        var $person = $(xml).find("person");
+        var $table = $(xml).find("table");
         $person.each(function () {
-            var name = $(this).find('name').text(), age = $(this).find('age').text();
+            var name = $(this).find('name').text(), max = $(this).find('max').text(), location = $(this).find('location').text(), status = $(this).find(status).text();
+            var image = max+".jpeg"
             // Insert value (HTML Tags) to the HTML associated with ID (#). Can do any HTML formatting
-            $("#ProfileList").append('<tr>' + '<td>' + name + ' </td><td>' + age + '</td></tr>')
+            $("#image").append('<tr>' + '<td>' + name + ' </td><td>' + age + '</td></tr>')
+            <img src="+image+ " alt="Girl in a jacket">
         });
     });
 </script>
